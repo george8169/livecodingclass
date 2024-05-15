@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    margin: auto;
+} */
+
+header nav .nav2 ul a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+img{
+    width: 170px;
+    /* margin-right: 100px; */
+    /* position: relative; */
+    /* right: 40px; */
+
+
+}
+.application-header__search-button {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* color: var(--color-text); */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #f0f0f8;
+    border-radius: 9999px;
+    border: 1px solid var(--color-border);
+    padding-left: 0;
+    place-content: center;
+    position: relative;
+    left: 100px;
+}
+
+
+.nav1{
+    /* margin-right: 190px; */
+    
+}
+
+/* ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/* .application-nav__row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    height: 100vh;
+    text-align: left;
+     padding-inline: 1.5rem; 
+} */
+
+
+/* .nav2{
+    width: 100px;
+    position: relative;
+    right: 200px;
+    display: none;
+    display: flex;
+    flex-direction: column;
+} */
+
+header nav .nav2 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 1.5em;
+    list-style-type: none;
+    
+    
+}
+
+header nav .nav2 ul a{
+    text-decoration: none;
+    color: black;
+
+}
+/* .header1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+} */
+
+header{
+    background-color: #FFFFFF;
+    /* background-attachment: scroll; */
+    /* position: initial; */
+    margin-top: 30px;
+}
+
+.button11{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #E03131;
+    border-radius: 100rem;
+    border: none;
+    color: #Fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 200ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+    position: relative;
+    left: 60px;
+}
+
+.application-header__mobile-icon {
+    fill: #3d3e44;
+    transition: fill 200ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+/* .hi{
+    border: medium solid black;
+}
+
+.he{
+    border: medium solid black;
+} */
+
+/* media query */
+@media(max-width: 1200px){
+    .nav2{
+        display: none;
+    }
+
+    .he{
+    position: relative;
+    left: 50px;   
+ }
+
+ .application-header__mobile-icon {
+    fill: #3d3e44;
+    transition: fill 200ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button11{
+    display: none;
+}
+
+
+.application-header__search-button {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* color: var(--color-text); */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #f0f0f8;
+    border-radius: 9999px;
+    border: 1px solid var(--color-border);
+    padding-left: 0;
+    place-content: center;
+    position: relative;
+    left: 450px;
+}
+
+}
+
+
+/* section1 */
+
+.h1{
+    font-size: 1em;
+    font-weight: unset;
+    margin: 0;
+}
+
+.text1{
+    font-size: 3em;
+    font-weight: 700;
+    width: 80%;
+}
+
+.text2{
+    font-weight: 400;
+    font-size: 20px;
+    width: 55%;
+    line-height: 1.4;
+    margin-top: 40px;
+
+}
+
+.button1{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #E03131;
+    border-radius: 100rem;
+    border: none;
+    color: #Fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 200ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+
+/* section2 */
+.section2{
+    margin-top: 30px;
+}
